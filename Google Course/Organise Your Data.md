@@ -45,7 +45,7 @@
 ```
 
 ## group_by() Function - 
-## drop_na() Function - remove null
+##### drop_na() Function - remove null
 ```R
 > penguins %>% group_by(island) %>% drop_na() %>% summarize(mean_bill_length_mm = mean(bill_length_mm))
 # A tibble: 3 × 2
